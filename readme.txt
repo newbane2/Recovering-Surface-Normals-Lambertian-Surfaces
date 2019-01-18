@@ -1,12 +1,3 @@
-problem 1:
-Because the objects surface is Lambertian it will scatter the light equally in all directions meaning that
-the points visible by both sources will have their direction dependant on the surface normal of the surface being hit.
-This means that the direction of the resultant illumination s3 will be the same (effective direction) for both light
-sources. If the intensities of s1 and s2 are different then the direction of s3 will be skewed in the direction of the brighter
-source.
-
-
-
 to run s1
 ./s1 {input original image} {input threshold value} {output parameters file}
 ./s1 sphere0.pgm 90 s1_out.txt
